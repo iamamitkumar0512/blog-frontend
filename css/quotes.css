@@ -1,0 +1,28 @@
+blockquote {
+  position: relative;
+  font-family: 'Sanchez', serif;
+  font-size: 2em;
+  font-style: oblique;
+  color: #404041;
+}
+
+
+blockquote > .author {
+  font-family: Roboto, sans-serif;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+blockquote > .author::before {
+  content: ' – ';
+}
+
+blockquote::before {
+  content: '\201C';
+  position: absolute;
+  top: -0.3em;
+  left: -0.16em;
+  color: #ddd;
+  font-size: 6.2em;
+  z-index: -1;
+}

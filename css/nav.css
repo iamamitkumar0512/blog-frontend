@@ -1,0 +1,25 @@
+#head nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 2em;
+  height: 20px;
+}
+
+#head nav li {
+  padding: 0.5em;
+  border: 1px solid white;
+  list-style: none;
+  transition: transform 0.4s cubic-bezier(0.19, 1.5, 0.25, 1.5);
+}
+
+#head nav li a,
+#head nav li a:link {
+  text-decoration: none;
+  color:palevioletred;
+}
+
+#head nav li:hover {
+  transform: scale3d(1.2, 1.2, 1.2);
+}

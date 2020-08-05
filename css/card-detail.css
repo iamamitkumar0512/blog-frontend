@@ -1,0 +1,46 @@
+.card {
+  background-color:white;
+  padding: 1.1em;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2.0em;
+}
+
+.card-header {
+  margin: 0.51em 0;
+}
+
+.card-body {
+  font-weight: 301;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-img-caption {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #444;
+  text-align: right;
+}
+
+.card-text {
+  font-weight: 301;
+}
+
+.card-link {
+  color:blue;
+}
+
+.card-link:hover {
+  color:red;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    grid-template-columns: 1fr 1fr;
+  }
+}
